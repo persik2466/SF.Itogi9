@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.IO;
-//using static SF.Itogi9.Task2.Program;
 
 namespace SF.Itogi9.Task2
 {
@@ -9,13 +7,14 @@ namespace SF.Itogi9.Task2
     {
         static void Main(string[] args)
         {
-            List<string> firstName = new List<string>();
-            firstName.Add("Сидоров");
-            firstName.Add("Петров");
-            firstName.Add("Антонов");
-            firstName.Add("Иванов");
-            firstName.Add("Васечкин");
-
+            List<string> firstName = new List<string>
+            {
+            "Сидоров",
+            "Петров",
+            "Антонов",
+            "Иванов",
+            "Васечкин"
+            };
             Console.WriteLine("Список фамилий до сортировки");
             ShowFio(firstName);
 
